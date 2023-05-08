@@ -5,6 +5,11 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketWEB", "SupermarketWEB\SupermarketWEB.csproj", "{FAEEDFA5-655F-4E28-A327-415DA3C23199}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{0A431C78-E62B-418A-AD6E-A9AD9CE9BFDD}"
+	ProjectSection(SolutionItems) = preProject
+		Product.cs = Product.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
