@@ -4,6 +4,11 @@
 	ViewData["Title"] = "Index Categories";
 }
 <h1>Index Categories</h1>
+
+<p>
+	<a asp-Page="Create" class="btn btn-success"></a>
+</p>
+
 <table class="table">
 	<thead>
 		<tr>
@@ -24,12 +29,12 @@
 					@Html.DisplayFor(modelItem => item.Name)
 				</td>
 				<td>
-			@Html.DisplayFor(modelItem => item.Description)
+					@Html.DisplayFor(modelItem => item.Description)
 				</td>
 				<td>
-					<span></span>
+					<a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
 				</td>
-
+			
 			</tr>
 		}
 	</tbody>
